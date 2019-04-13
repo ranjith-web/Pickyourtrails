@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto' !important;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body h1{
+  color: #0f2679;
+  font-size: 25px;
+}
+
+body h3{
+  color: #071546;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.t-container{
+  padding:35px;
+}
+
+
+.dashed-border{
+  border-bottom: 1px solid #a4c8cc;
+  border-style: dashed;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-top-style: hidden;
+}
+.pdb-30{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.lists-name{
+  float:left;
+  cursor: pointer;
+  padding-left: 0px !important;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+body a{
+  color: #67479a;
+  text-decoration: none;
+}
+
+body a:hover{
+  color: #67479a;
+  text-decoration: none;
+}
+
+/* loader styles starts here */
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* loader styles ends here */
+.mrb{
+  margin-bottom: 20px;
+}
+.pdb-20{
+  padding-bottom: 20px;
+}
+#t-pagination{
+  padding-left: 25%;
+}
